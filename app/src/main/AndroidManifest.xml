@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.majestyinc.querious">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.majestyinc.querious.FileUpload"></activity>
+        <activity
+            android:name="com.majestyinc.querious.IndividualPost"
+            android:label="@string/title_activity_individual_post"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.majestyinc.querious.YourQues" />
+        <activity android:name="com.majestyinc.querious.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.majestyinc.querious.SendImage" />
+        <activity android:name="com.majestyinc.querious.StoryActivity" /> <!-- <activity android:name=".ShowStory" /> -->
+        <activity android:name="com.majestyinc.querious.FollowerActivity" /> <!-- <activity android:name=".VideoCallinComing" /> -->
+        <!-- <activity android:name=".VideoCallOutgoing" /> -->
+        <activity android:name="com.majestyinc.querious.UpdateProfile" />
+        <activity android:name="com.majestyinc.querious.UpdatePhoto" />
+        <activity android:name="com.majestyinc.querious.ShowUser" />
+        <activity android:name="com.majestyinc.querious.ShowLikedUser" />
+        <activity android:name="com.majestyinc.querious.SettingsActivity" />
+        <activity android:name="com.majestyinc.querious.ReplyActivity" />
+        <activity android:name="com.majestyinc.querious.Related" />
+        <activity android:name="com.majestyinc.querious.RegisterActivity" />
+        <activity android:name="com.majestyinc.querious.PrivacyActivity" />
+        <activity android:name="com.majestyinc.querious.PostActivity" />
+        <activity android:name="com.majestyinc.querious.NotificationActivity" />
+        <activity android:name="com.majestyinc.querious.MessageActivity" />
+        <activity android:name="com.majestyinc.querious.LoginActivity"></activity>
+        <activity android:name="com.majestyinc.querious.ImageActivity" />
+        <activity android:name="com.majestyinc.querious.CreateProfile" />
+        <activity android:name="com.majestyinc.querious.CommentsActivity" />
+        <activity android:name="com.majestyinc.querious.ChatActivity" />
+        <activity android:name="com.majestyinc.querious.AskActivity" />
+        <activity android:name="com.majestyinc.querious.AnswerActivity" />
+        <activity android:name="com.majestyinc.querious.MainActivity" />
+        <activity android:name="com.majestyinc.querious.ShowStory" />
+        <activity android:name="com.majestyinc.querious.VideoCallOutgoing" />
+        <activity android:name="com.majestyinc.querious.VideoCallinComing" />
+
+        <service
+            android:name="com.majestyinc.querious.FirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
