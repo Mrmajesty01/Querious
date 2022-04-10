@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.majestyinc.querious">
+    package="com.majestyinc.querious_">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -17,49 +17,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.majestyinc.querious.FileUpload"></activity>
+        <activity android:name="com.majestyinc.querious_.FileUpload"></activity>
         <activity
-            android:name="com.majestyinc.querious.IndividualPost"
+            android:name="com.majestyinc.querious_.IndividualPost"
             android:label="@string/title_activity_individual_post"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.majestyinc.querious.YourQues" />
-        <activity android:name="com.majestyinc.querious.Splashscreen">
+        <activity android:name="com.majestyinc.querious_.YourQues" />
+        <activity android:name="com.majestyinc.querious_.Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.majestyinc.querious.SendImage" />
-        <activity android:name="com.majestyinc.querious.StoryActivity" /> <!-- <activity android:name=".ShowStory" /> -->
-        <activity android:name="com.majestyinc.querious.FollowerActivity" /> <!-- <activity android:name=".VideoCallinComing" /> -->
+        <activity android:name="com.majestyinc.querious_.SendImage" />
+        <activity android:name="com.majestyinc.querious_.StoryActivity" /> <!-- <activity android:name=".ShowStory" /> -->
+        <activity android:name="com.majestyinc.querious_.FollowerActivity" /> <!-- <activity android:name=".VideoCallinComing" /> -->
         <!-- <activity android:name=".VideoCallOutgoing" /> -->
-        <activity android:name="com.majestyinc.querious.UpdateProfile" />
-        <activity android:name="com.majestyinc.querious.UpdatePhoto" />
-        <activity android:name="com.majestyinc.querious.ShowUser" />
-        <activity android:name="com.majestyinc.querious.ShowLikedUser" />
-        <activity android:name="com.majestyinc.querious.SettingsActivity" />
-        <activity android:name="com.majestyinc.querious.ReplyActivity" />
-        <activity android:name="com.majestyinc.querious.Related" />
-        <activity android:name="com.majestyinc.querious.RegisterActivity" />
-        <activity android:name="com.majestyinc.querious.PrivacyActivity" />
-        <activity android:name="com.majestyinc.querious.PostActivity" />
-        <activity android:name="com.majestyinc.querious.NotificationActivity" />
-        <activity android:name="com.majestyinc.querious.MessageActivity" />
-        <activity android:name="com.majestyinc.querious.LoginActivity"></activity>
-        <activity android:name="com.majestyinc.querious.ImageActivity" />
-        <activity android:name="com.majestyinc.querious.CreateProfile" />
-        <activity android:name="com.majestyinc.querious.CommentsActivity" />
-        <activity android:name="com.majestyinc.querious.ChatActivity" />
-        <activity android:name="com.majestyinc.querious.AskActivity" />
-        <activity android:name="com.majestyinc.querious.AnswerActivity" />
-        <activity android:name="com.majestyinc.querious.MainActivity" />
-        <activity android:name="com.majestyinc.querious.ShowStory" />
-        <activity android:name="com.majestyinc.querious.VideoCallOutgoing" />
-        <activity android:name="com.majestyinc.querious.VideoCallinComing" />
+        <activity android:name="com.majestyinc.querious_.UpdateProfile" />
+        <activity android:name="com.majestyinc.querious_.UpdatePhoto" />
+        <activity android:name="com.majestyinc.querious_.ShowUser" />
+        <activity android:name="com.majestyinc.querious_.ShowLikedUser" />
+        <activity android:name="com.majestyinc.querious_.SettingsActivity" />
+        <activity android:name="com.majestyinc.querious_.ReplyActivity" />
+        <activity android:name="com.majestyinc.querious_.Related" />
+        <activity android:name="com.majestyinc.querious_.RegisterActivity" />
+        <activity android:name="com.majestyinc.querious_.PrivacyActivity" />
+        <activity android:name="com.majestyinc.querious_.PostActivity" />
+        <activity android:name="com.majestyinc.querious_.NotificationActivity" />
+        <activity android:name="com.majestyinc.querious_.MessageActivity" />
+        <activity android:name="com.majestyinc.querious_.LoginActivity"></activity>
+        <activity android:name="com.majestyinc.querious_.ImageActivity" />
+        <activity android:name="com.majestyinc.querious_.CreateProfile" />
+        <activity android:name="com.majestyinc.querious_.CommentsActivity" />
+        <activity android:name="com.majestyinc.querious_.ChatActivity" />
+        <activity android:name="com.majestyinc.querious_.AskActivity" />
+        <activity android:name="com.majestyinc.querious_.AnswerActivity" />
+        <activity android:name="com.majestyinc.querious_.MainActivity" />
+        <activity android:name="com.majestyinc.querious_.ShowStory" />
+        <activity android:name="com.majestyinc.querious_.VideoCallOutgoing" />
+        <activity android:name="com.majestyinc.querious_.VideoCallinComing" />
 
         <service
-            android:name="com.majestyinc.querious.FirebaseMessagingService"
+            android:name="com.majestyinc.querious_.FirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
