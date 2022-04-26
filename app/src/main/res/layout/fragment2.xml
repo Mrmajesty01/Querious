@@ -53,7 +53,7 @@
                 android:id="@+id/iv_f2"
                 android:background="@drawable/ic_person"
                 android:clickable="true"
-                android:scaleType="fitCenter"/>
+                android:scaleType="centerCrop"/>
 
         </androidx.cardview.widget.CardView>
 

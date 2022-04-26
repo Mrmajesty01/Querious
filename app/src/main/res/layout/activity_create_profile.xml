@@ -96,7 +96,7 @@
         android:layout_width="match_parent"
         android:text="Save Profile"
         android:layout_margin="10dp"
-        android:background="@color/start"
+        android:background="@drawable/button_back"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:layout_marginTop="20dp"

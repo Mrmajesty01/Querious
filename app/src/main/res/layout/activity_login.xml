@@ -76,7 +76,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@drawable/buttom_back_white"
         android:textColor="@color/start"
         android:text="Login"
         android:layout_margin="10dp"
@@ -86,7 +86,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/start"
+        android:background="@drawable/button_back"
         android:textColor="@color/white"
         android:text="Sign Up"
         android:layout_margin="10dp"
