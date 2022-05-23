@@ -15,11 +15,13 @@ android {
     }
 
 
-    configurations.all {
-        resolutionStrategy {
+
+    configurations.all{
+        resolutionStrategy{
             force 'androidx.core:core-ktx:1.6.0'
         }
     }
+
 
 
     buildTypes {
@@ -49,22 +51,15 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
-    implementation platform('com.google.firebase:firebase-bom:29.3.0')
+    implementation platform('com.google.firebase:firebase-bom:28.4.0')
     implementation 'com.google.firebase:firebase-analytics'
-    implementation 'com.google.firebase:firebase-auth'
-    implementation 'com.google.firebase:firebase-core'
-    implementation 'com.google.android.material:material'
-    implementation 'com.google.firebase:firebase-firestore'
+
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+
+    implementation 'com.google.firebase:firebase-core:19.0.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.google.firebase:firebase-firestore:23.0.3'
     implementation 'com.firebaseui:firebase-ui-database:6.2.0'
-
-
-//    implementation 'com.google.firebase:firebase-auth'
-//
-//    implementation 'com.google.firebase:firebase-core'
-//    implementation 'com.google.android.material:material:1.4.0'
-//    implementation 'com.google.firebase:firebase-firestore'
-//    implementation 'com.firebaseui:firebase-ui-database'
-
 
     implementation 'com.google.android.exoplayer:exoplayer:2.15.0'
     implementation 'com.google.android.exoplayer:exoplayer-core:2.15.0'

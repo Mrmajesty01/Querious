@@ -82,6 +82,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="15sp"
+            android:visibility="visible"
             android:id="@+id/tv_desc_post"
             android:paddingStart="5dp"
             />
@@ -110,6 +111,13 @@
                 android:visibility="visible"
                 app:resize_mode="fill"
 
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/writeup"
+                android:visibility="visible"
                 tools:ignore="MissingConstraints" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
