@@ -35,14 +35,6 @@
         android:id="@+id/option1_id"
         android:textSize="20sp"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="options 2"
-        android:padding="10dp"
-        android:textColor="@color/black"
-        android:id="@+id/option2_id"
-        android:textSize="20sp"/>
 
 
     <TextView

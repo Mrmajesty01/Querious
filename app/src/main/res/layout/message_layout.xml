@@ -17,6 +17,7 @@
         android:textSize="15sp"
         android:padding="9dp"/>
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,6 +30,18 @@
         android:background="@drawable/searchbacksend"
         android:textSize="15sp"
         android:padding="9dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sent"
+        android:id="@+id/sent"
+        android:layout_marginTop="2dp"
+        android:textSize="10sp"
+        android:textColor="@color/grey"
+        android:layout_marginEnd="3dp"
+        android:layout_gravity="right"
+        />
 
     <ImageView
         android:layout_width="300dp"
