@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:padding="2dp"
     android:background="@color/white"
+    android:id="@+id/fragment4"
     android:layout_height="match_parent">
 
 

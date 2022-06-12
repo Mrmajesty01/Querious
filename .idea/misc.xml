@@ -3,8 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.143" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/buttom_back_white.xml" value="0.143" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/ic_baseline_mic.xml" value="0.1185" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.1185" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/ic_baseline_send.xml" value="0.1315" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.1315" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/ic_launcher_background.xml" value="0.143" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/icon.xml" value="0.143" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/receiver_left.xml" value="0.1305" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/receiver_right.xml" value="0.1305" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/search_back.xml" value="0.1335" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/searchback.xml" value="0.1315" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/searchbacksend.xml" value="0.1345" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/send_back.xml" value="0.1435" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/sender_left.xml" value="0.1315" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/drawable/sender_right.xml" value="0.1315" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_answer.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_ask.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_chat.xml" value="0.12771739130434784" />
@@ -12,17 +26,29 @@
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_create_profile.xml" value="0.2" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_file_upload.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_individual_post.xml" value="0.12771739130434784" />
-        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_message.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_message.xml" value="0.11" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_post.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_show_story.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_update_photo.xml" value="0.1078125" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_update_profile.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/activity_write.xml" value="0.16" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/bottom_sheet_menu.xml" value="0.12395833333333334" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/bottomsheet_f2.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/category_layout.xml" value="0.25" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/chat_profile_item.xml" value="0.12395833333333334" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/f4_bottomsheet.xml" value="0.12395833333333334" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/file.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/fragment1.xml" value="0.10597826086956522" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/fragment3.xml" value="0.17" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/fragment4.xml" value="0.1078125" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/fragmentbook.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/message_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/message_layout.xml" value="0.16" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/message_options.xml" value="0.18" />
         <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/post_layout.xml" value="0.13" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/profile.xml" value="0.10869565217391304" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/story_layout.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/layout/user_like_layout.xml" value="0.10869565217391304" />
+        <entry key="..\:/Users/Mr.Majesty/AndroidStudioProjects/Querious_/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.143" />
       </map>
     </option>
   </component>

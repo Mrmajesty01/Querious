@@ -73,6 +73,20 @@
         android:layout_marginBottom="50dp"
         android:id="@+id/rv_message"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/rv_message"
+        app:layout_constraintRight_toRightOf="@id/rv_message"
+        android:text="sent"
+        android:id="@+id/sent"
+        android:layout_marginTop="2dp"
+        android:textSize="10sp"
+        android:textColor="@color/grey"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="right"
+        tools:ignore="MissingConstraints" />
+
     <ImageButton
         android:id="@+id/imageButtonsend"
         android:layout_width="50dp"

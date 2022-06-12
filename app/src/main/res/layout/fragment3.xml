@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:id="@+id/fragment3"
     android:layout_height="match_parent"
     android:background="@color/white">
 
@@ -11,7 +12,7 @@
         android:hint="Search user"
         android:layout_margin="5dp"
         android:id="@+id/search_f3"
-        android:background="@drawable/search_back"
+        android:background="@drawable/searchback"
         android:padding="10dp"
         android:drawableLeft="@drawable/ic_grey_search_24"
         android:paddingLeft="20dp"

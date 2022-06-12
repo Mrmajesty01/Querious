@@ -2,6 +2,8 @@ package com.majestyinc.querious_;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -11,6 +13,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.Continuation;
@@ -33,7 +36,7 @@ import java.util.Calendar;
 public class writeActivity extends AppCompatActivity {
 
     EditText editText;
-    Button button;
+    ImageButton button;
     Postmember postmember;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference write,allpost;
@@ -146,14 +149,16 @@ public class writeActivity extends AppCompatActivity {
                         handler.postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                Intent intent = new Intent(writeActivity.this, MainActivity.class);
-                                startActivity(intent);
+                                getSupportFragmentManager().beginTransaction().replace(R.id.fragment4, new Fragment4()).commit();
+//                                Fragment fragment = new Fragment4();
+//                                FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//                                fragmentTransaction.replace(R.id.fragment4,fragment).commit();
                             }
                         }, 2000);
 
 
                     }else {
-                        Toast.makeText(writeActivity.this, "Please fill all Fields", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(writeActivity.this, "Write something!!!", Toast.LENGTH_SHORT).show();
                     }
 
 
