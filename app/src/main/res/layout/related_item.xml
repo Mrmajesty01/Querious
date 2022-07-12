@@ -31,7 +31,7 @@
                     android:id="@+id/related_iv_que_item"
                     android:background="@drawable/ic_person"
                     android:clickable="true"
-                    android:scaleType="fitCenter"/>
+                    android:scaleType="centerCrop"/>
 
             </androidx.cardview.widget.CardView>
         </LinearLayout>

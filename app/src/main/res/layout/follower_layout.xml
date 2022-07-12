@@ -35,24 +35,24 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="name"
             android:id="@+id/name_follower"
-            android:textSize="18sp"
-            android:textColor="@color/black"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="65dp"/>
+            android:text="name"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="profession"
             android:id="@+id/profession_follower"
-            android:textSize="14sp"
-            android:textColor="@color/textcolorgrey"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
             android:layout_marginTop="40dp"
-            android:layout_marginLeft="65dp"/>
+            android:text="profession"
+            android:textColor="@color/textcolorgrey"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/vp_follower"

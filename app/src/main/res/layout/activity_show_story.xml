@@ -15,7 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="8dp"
         android:layout_marginTop="5dp"
-        android:layout_gravity="top" />
+        android:layout_gravity="top"
+        />
 
     <androidx.cardview.widget.CardView
         android:layout_width="40dp"
@@ -24,7 +25,8 @@
         android:layout_marginLeft="20dp"
         android:layout_gravity="center_vertical"
         app:cardPreventCornerOverlap="false"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="20dp"
+        >
 
         <ImageView
             android:layout_width="match_parent"
@@ -64,23 +66,22 @@
         android:layout_width="200dp"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="0dp"
         android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp" />
 
     <TextView
         android:id="@+id/tv_cap_st"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/iv_storyview"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="600dp"
-        android:layout_marginEnd="141dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="sans-serif-light"
         android:text="caption"
         android:textAlignment="center"

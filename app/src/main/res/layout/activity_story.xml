@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Write something"
-        android:textColor="@color/start"
+        android:textColor="@color/white"
         android:textColorHint="@color/start"
         android:textSize="25sp"
         android:backgroundTint="@color/start"

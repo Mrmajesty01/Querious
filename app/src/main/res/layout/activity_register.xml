@@ -35,7 +35,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="User Email"
+        android:hint="Email"
         android:layout_margin="10dp"
         android:textColor="@color/white"
         android:paddingStart="10dp"

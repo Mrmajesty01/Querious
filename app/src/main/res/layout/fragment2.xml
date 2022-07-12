@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:id="@+id/fragment2"
+    android:id="@+id/refresh2"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:id="@+id/fragment2"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+>
 
 
     <androidx.cardview.widget.CardView
@@ -34,10 +41,8 @@
             android:textSize="20sp"
             android:textColor="@color/red"
             android:textStyle="bold"
-            android:drawableStart="@drawable/ic_baseline_keyboard_arrow_left_24"
             android:drawablePadding="5dp"
-            android:paddingStart="5dp"
-            android:drawableLeft="@drawable/ic_baseline_keyboard_arrow_left_24" />
+            android:paddingStart="5dp"/>
 
 
         <androidx.cardview.widget.CardView
@@ -85,3 +90,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+   </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

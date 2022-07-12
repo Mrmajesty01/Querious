@@ -39,6 +39,8 @@ public class writeActivity extends AppCompatActivity {
     ImageButton button;
     Postmember postmember;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
+    FirebaseFirestore fr = FirebaseFirestore.getInstance();
+    DocumentReference dr1,dr2;
     DatabaseReference write,allpost;
     StorageReference storageReference;
     public static String url,name;
@@ -58,6 +60,9 @@ public class writeActivity extends AppCompatActivity {
 
         write = database.getReference("WriteUp").child(currentuid);
         allpost = database.getReference("All posts");
+        dr1 = fr.collection("WriteUp").document(currentuid);
+        dr2 = fr.collection("All posts").document();
+
 
 
 
@@ -115,7 +120,7 @@ public class writeActivity extends AppCompatActivity {
         final String writeup = editText.getText().toString();
 
         Calendar cdate = Calendar.getInstance();
-        SimpleDateFormat currentdate = new SimpleDateFormat("dd-MMMM-yyyy");
+        SimpleDateFormat currentdate = new SimpleDateFormat("dd-MM-yyyy");
         final String savedate = currentdate.format(cdate.getTime());
 
         Calendar ctime = Calendar.getInstance();
@@ -123,7 +128,7 @@ public class writeActivity extends AppCompatActivity {
         final String savetime = currenttime.format(ctime.getTime());
 
 
-        final String time = savedate + ":" + savetime;
+        final String time = savedate + "," + savetime;
 
 
                     if (!TextUtils.isEmpty(writeup)) {
@@ -137,11 +142,13 @@ public class writeActivity extends AppCompatActivity {
                         postmember.setType("text");
 
 
-                        String id = write.push().getKey();
-                        write.child(id).setValue(postmember);
-
-                        String id1 = allpost.push().getKey();
-                        allpost.child(id1).setValue(postmember);
+                        dr1.set(postmember);
+                        dr2.set(postmember);
+//                        String id = write.push().getKey();
+//                        write.child(id).setValue(postmember);
+//
+//                        String id1 = allpost.push().getKey();
+//                        allpost.child(id1).setValue(postmember);
 
                         Toast.makeText(writeActivity.this, "Posted", Toast.LENGTH_SHORT).show();
 
@@ -149,10 +156,7 @@ public class writeActivity extends AppCompatActivity {
                         handler.postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                getSupportFragmentManager().beginTransaction().replace(R.id.fragment4, new Fragment4()).commit();
-//                                Fragment fragment = new Fragment4();
-//                                FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-//                                fragmentTransaction.replace(R.id.fragment4,fragment).commit();
+                            onBackPressed();
                             }
                         }, 2000);
 
@@ -164,6 +168,11 @@ public class writeActivity extends AppCompatActivity {
 
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }
 

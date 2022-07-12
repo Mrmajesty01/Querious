@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/refresh3"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:id="@+id/fragment3"
@@ -8,7 +15,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Search user"
         android:layout_margin="5dp"
         android:id="@+id/search_f3"
@@ -42,3 +49,4 @@
 
 
 </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

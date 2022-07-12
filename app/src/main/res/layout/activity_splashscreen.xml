@@ -26,7 +26,7 @@
         android:text="Querious"
         android:textAlignment="center"
         android:gravity="center"
-        android:textColor="#FF7F7F"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="30sp"
         android:textStyle="italic"
         />
@@ -45,7 +45,7 @@
             android:layout_marginTop="500dp"
             android:text="Questions you're curious about"
             android:textAlignment="center"
-            android:textColor="#33b5e5"
+            android:textColor="@android:color/holo_blue_dark"
             android:textSize="25dp"
             android:textStyle="bold" />
 

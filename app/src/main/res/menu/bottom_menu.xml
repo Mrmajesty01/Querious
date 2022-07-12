@@ -13,10 +13,10 @@
         app:showAsAction="always"
         android:id="@+id/ask_bottom"/>
 
-    <item android:title = "Bookshelf"
-        android:icon="@drawable/bookshelf"
-        app:showAsAction="always"
-        android:id="@+id/bookshelf"/>
+<!--    <item android:title = "Bookshelf"-->
+<!--        android:icon="@drawable/bookshelf"-->
+<!--        app:showAsAction="always"-->
+<!--        android:id="@+id/bookshelf"/>-->
 
     <item android:title="Requests"
         android:icon="@drawable/ic_baseline_queue_24"

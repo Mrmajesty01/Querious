@@ -48,7 +48,7 @@
         android:backgroundTint="@color/red"
         android:hint="Description"
         android:paddingStart="10dp"
-        android:textColor="@color/red"
+        android:textColor="@color/white"
         android:textColorHint="@color/red"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

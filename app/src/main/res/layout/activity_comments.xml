@@ -71,8 +71,9 @@
             android:hint="Add Comment"
             android:paddingStart="10dp"
             android:layout_marginRight="3dp"
+            android:textColorHint="@color/red"
             android:id="@+id/et_comments"
-            android:textColor="@color/start"/>
+            android:textColor="@color/black"/>
 
 
         <Button
