@@ -6,7 +6,7 @@
     android:layout_margin="5dp"
     app:cardCornerRadius="5dp"
     android:id="@+id/cardview_profile"
-    app:cardBackgroundColor="@color/white"
+    app:cardBackgroundColor="@color/whitee"
     android:layout_height="wrap_content">
 
 
@@ -24,7 +24,7 @@
             android:layout_height="90dp"
             app:cardCornerRadius="45dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="2dp"
             app:cardPreventCornerOverlap="false"
             android:layout_gravity="center">
 
@@ -46,19 +46,19 @@
             android:gravity="center"
             android:orientation="vertical">
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="130dp"
+                android:layout_height="20dp"
                 android:textColor="@color/black"
                 android:hint="name"
                 android:textAlignment="center"
                 android:layout_gravity="center"
-                android:layout_marginBottom="4dp"
+                android:layout_marginBottom="2dp"
                 android:textSize="16sp"
                 android:id="@+id/tv_name_profile" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="130dp"
+                android:layout_height="15dp"
                 android:textColor="@color/textcolorgrey"
                 android:textAlignment="center"
                 android:layout_gravity="center"

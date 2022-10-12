@@ -4,21 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/black"
+    android:background="#000000"
     android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Querious"
-        android:textStyle="italic"
-        android:textSize="40dp"
-        android:textColor="#cc1100"
-        android:layout_marginBottom="70dp"
-        android:textAlignment="center"
-        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/qrnot" />
 
     <TextView
         android:layout_width="match_parent"
@@ -27,7 +23,7 @@
         android:textStyle="bold"
         android:textSize="30dp"
         android:textColor="#FFFFFF"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="10dp"
         android:textAlignment="center"
         />
 
@@ -37,15 +33,15 @@
         android:layout_height="60dp"
         android:hint="Email"
         android:layout_margin="10dp"
-        android:textColor="@color/white"
+        android:textColor="#ffffff"
         android:paddingStart="10dp"
-        android:drawableStart="@drawable/custom_email"
+        android:drawableStart="@drawable/email_login"
         android:drawablePadding="10dp"
         android:inputType="textEmailAddress"
         android:textColorHint="@color/grey"
         android:id="@+id/register_email_et"
         android:background="@drawable/custom_input"
-        android:drawableLeft="@drawable/custom_email"
+        android:drawableLeft="@drawable/email_login"
         android:paddingLeft="10dp" />
 
     <EditText
@@ -57,7 +53,7 @@
         android:drawableStart="@drawable/custom_pass_input"
         android:drawablePadding="10dp"
         android:inputType="textPassword"
-        android:textColor="@color/white"
+        android:textColor="#ffffff"
         android:textColorHint="@color/grey"
         android:id="@+id/register_password_et"
         android:background="@drawable/custom_input"
@@ -73,7 +69,7 @@
         android:drawableStart="@drawable/custom_pass_input"
         android:drawablePadding="10dp"
         android:inputType="textPassword"
-        android:textColor="@color/white"
+        android:textColor="#ffffff"
         android:textColorHint="@color/grey"
         android:id="@+id/register_confirmpassword_et"
         android:background="@drawable/custom_input"
@@ -83,8 +79,8 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Show Password"
-        android:buttonTint="@color/white"
-        android:textColor="@color/white"
+        android:buttonTint="#ffffff"
+        android:textColor="#ffffff"
         android:layout_marginRight="70dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
@@ -93,8 +89,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_back"
-        android:textColor="@color/white"
+        android:background="@drawable/bottom_back_login"
+        android:textColor="#ffffff"
         android:text="Sign up"
         android:layout_margin="10dp"
         android:id="@+id/button_register"
@@ -103,8 +99,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/buttom_back_white"
-        android:textColor="@color/start"
+        android:background="@drawable/bottom_back_white_login"
+        android:textColor="#FF061E"
         android:text="Login"
         android:layout_margin="10dp"
         android:id="@+id/signup_to_login"
@@ -116,7 +112,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/progressbar_register"
         android:indeterminate="true"
-        android:indeterminateTint="@color/white"
+        android:indeterminateTint="#ffffff"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:visibility="invisible"
         android:layout_marginTop="20dp"

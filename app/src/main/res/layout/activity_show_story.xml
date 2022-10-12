@@ -39,8 +39,8 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
         android:textSize="15sp"
         android:text="username"
         android:textColor="@android:color/white"
@@ -48,23 +48,35 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="70dp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="viewEnd"
+        android:text="time"
+        android:textColor="@android:color/white"
+        android:id="@+id/time_ss"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="310dp"/>
+
     <ImageView
+        android:id="@+id/iv_storyview"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:id="@+id/iv_storyview"
-        android:scaleType="fitCenter"
         android:layout_marginTop="70dp"
-        />
+        android:scaleType="fitCenter" />
 
     <View
         android:id="@+id/view_prev"
         android:layout_width="200dp"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginBottom="160dp" />
 
     <View
         android:id="@+id/view_next"
         android:layout_width="200dp"
         android:layout_height="match_parent"
+        android:layout_marginBottom="160dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginEnd="0dp"
@@ -120,7 +132,7 @@
         android:padding="10dp"
         android:visibility="invisible"
         android:layout_margin="5dp"
-        android:src="@drawable/ic_baseline_delete_24"
+        android:src="@drawable/ic_baselinered_delete_24"
         android:layout_alignParentRight="true"
         android:layout_marginRight="0dp" />
 

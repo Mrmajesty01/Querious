@@ -5,12 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -41,7 +43,7 @@ public class writeActivity extends AppCompatActivity {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     FirebaseFirestore fr = FirebaseFirestore.getInstance();
     DocumentReference dr1,dr2;
-    DatabaseReference write,allpost;
+    DatabaseReference write,allpost,up;
     StorageReference storageReference;
     public static String url,name;
     UploadTask uploadTask;
@@ -58,6 +60,7 @@ public class writeActivity extends AppCompatActivity {
         String currentuid = user.getUid();
         postmember = new Postmember();
 
+        up = database.getReference("User Posts").child(currentuid);
         write = database.getReference("WriteUp").child(currentuid);
         allpost = database.getReference("All posts");
         dr1 = fr.collection("WriteUp").document(currentuid);
@@ -120,15 +123,15 @@ public class writeActivity extends AppCompatActivity {
         final String writeup = editText.getText().toString();
 
         Calendar cdate = Calendar.getInstance();
-        SimpleDateFormat currentdate = new SimpleDateFormat("dd-MM-yyyy");
+        SimpleDateFormat currentdate = new SimpleDateFormat("yyyy/MM/dd");
         final String savedate = currentdate.format(cdate.getTime());
 
         Calendar ctime = Calendar.getInstance();
-        SimpleDateFormat currenttime = new SimpleDateFormat("HH:mm:ss");
+        SimpleDateFormat currenttime = new SimpleDateFormat("HH:mm");
         final String savetime = currenttime.format(ctime.getTime());
 
 
-        final String time = savedate + "," + savetime;
+        final String time = savedate +" "+"at"+" "+ savetime;
 
 
                     if (!TextUtils.isEmpty(writeup)) {
@@ -142,8 +145,13 @@ public class writeActivity extends AppCompatActivity {
                         postmember.setType("text");
 
 
+
+
                         dr1.set(postmember);
                         dr2.set(postmember);
+                        String id = dr2.getId();
+                        up.child(id).setValue(postmember);
+
 //                        String id = write.push().getKey();
 //                        write.child(id).setValue(postmember);
 //

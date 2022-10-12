@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:visibility="visible"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardBackgroundColor="@color/white"
+    app:cardBackgroundColor="@color/whitee"
     app:cardCornerRadius="10dp"
     android:layout_margin="5dp">
 
@@ -47,22 +47,26 @@
 
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="10sp"
-                android:paddingStart="5dp"
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:paddingStart="20dp"
                 android:textColor="@color/textcolorgrey"
                 android:id="@+id/name_ch_item_tv"
                 android:hint="name" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:textColor="@color/black"
-                android:id="@+id/ch_itemprof_tv"
-                android:paddingStart="5dp"
-                android:hint="questions" />
+            <Button
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@color/start"
+                android:layout_marginTop="10dp"
+                android:id="@+id/seenbtn"
+                android:visibility="invisible"
+                android:layout_marginStart="250dp"/>
+
+
+
 
 
 

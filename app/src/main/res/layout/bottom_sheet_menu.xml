@@ -31,15 +31,18 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:padding="10dp"
-                android:id="@+id/del_profile"
+                android:id="@+id/logout_profile"
                 android:layout_gravity="center_horizontal"
                 android:background="@android:color/transparent"
-                android:src="@drawable/ic_baselinered_delete_24"/>
+                android:src="@drawable/ic_baselinered_power_settings_new_24"/>
+
+
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Delete"
+                android:text="Logout"
                 android:textColor="@color/black"
                 android:gravity="center_horizontal"/>
         </LinearLayout> <LinearLayout
@@ -107,19 +110,21 @@
         android:gravity="center"
         android:orientation="vertical">
 
+
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:padding="10dp"
-            android:id="@+id/logout_profile"
+            android:id="@+id/del_profile"
             android:layout_gravity="center_horizontal"
             android:background="@android:color/transparent"
-            android:src="@drawable/ic_baselinered_power_settings_new_24"/>
+            android:src="@drawable/ic_baselinered_delete_24"/>
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Logout"
+            android:text="Delete"
             android:textColor="@color/black"
             android:gravity="center_horizontal"/>
     </LinearLayout>

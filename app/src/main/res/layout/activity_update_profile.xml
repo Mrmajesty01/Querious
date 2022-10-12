@@ -26,9 +26,10 @@
         android:id="@+id/et_name_up"
         android:layout_margin="4dp"
         android:drawablePadding="7dp"
+        android:maxLength="30"
         android:drawableLeft="@drawable/ic_parson_black"
         android:paddingLeft="10dp"
-        android:textColor="@color/textcolorgrey"/>
+        android:textColor="@color/black"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -37,9 +38,10 @@
         android:id="@+id/et_profession_up"
         android:layout_margin="4dp"
         android:drawablePadding="7dp"
+        android:maxLength="30"
         android:drawableLeft="@drawable/ic_baseline_work_black"
         android:paddingLeft="10dp"
-        android:textColor="@color/textcolorgrey"/>
+        android:textColor="@color/black"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,9 +49,10 @@
         android:id="@+id/et_bio_up"
         android:layout_margin="4dp"
         android:drawablePadding="7dp"
+        android:maxLength="30"
         android:drawableLeft="@drawable/ic_bio_cp_black"
         android:paddingLeft="10dp"
-        android:textColor="@color/textcolorgrey"/>
+        android:textColor="@color/black"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -59,20 +62,10 @@
         android:layout_margin="4dp"
         android:paddingStart="5dp"
         android:drawablePadding="7dp"
-        android:textColor="@color/textcolorgrey"
+        android:textColor="@color/black"
+        android:maxLength="30"
         android:drawableLeft="@drawable/ic_baseline_email_black"
         android:paddingLeft="10dp" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Website"
-        android:id="@+id/et_web_up"
-        android:layout_margin="4dp"
-        android:drawablePadding="7dp"
-        android:drawableLeft="@drawable/ic_baseline_duniya_black"
-        android:paddingLeft="10dp"
-        android:textColor="@color/textcolorgrey"/>
 
 
     <Button

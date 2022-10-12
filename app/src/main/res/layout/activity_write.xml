@@ -32,8 +32,9 @@
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:hint="What's happening"
+            android:hint="What's happening?"
             android:textAlignment="viewStart"
+            android:maxLength="1000"
             android:textSize="20sp"
             android:padding="10dp"
             android:maxLines="7"

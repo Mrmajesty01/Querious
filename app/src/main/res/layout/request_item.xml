@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="5dp"
-    app:cardBackgroundColor="@color/white"
+    app:cardBackgroundColor="@color/whitee"
     android:layout_margin="10dp">
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,15 +45,15 @@
 
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="160dp"
+                android:layout_height="15dp"
                 android:id="@+id/tv_request_name_item"
                 android:textColor="@color/black"
                 android:text="Name"
-                android:paddingStart="17dp"
+                android:paddingStart="15dp"
                 android:textSize="15sp"/>
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="5dp">

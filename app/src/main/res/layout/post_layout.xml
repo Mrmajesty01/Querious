@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_margin="5dp"
     app:cardCornerRadius="5dp"
-    app:cardBackgroundColor="@color/white"
+    app:cardBackgroundColor="@color/whitee"
     android:layout_height="wrap_content">
 
 
@@ -18,7 +18,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="horizontal"
             android:padding="3dp">
 
@@ -50,9 +50,10 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
                     android:textColor="@color/black"
+                    android:layout_marginTop="8dp"
                     android:hint="name"
                     android:textSize="15sp"
                     android:id="@+id/tv_name_post"
@@ -82,7 +83,12 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="15sp"
+            android:autoLink="web"
+            android:textColorLink="@color/blue"
+            android:textIsSelectable="true"
             android:visibility="visible"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:id="@+id/tv_desc_post"
             android:paddingStart="5dp"
             />
@@ -115,7 +121,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:id="@+id/writeup"
+                android:autoLink="web"
+                android:textIsSelectable="true"
                 android:textSize="15sp"
                 android:textColor="@color/black"
                 android:visibility="visible"
@@ -144,7 +154,7 @@
                 android:background="@android:color/transparent"
                 android:padding="5dp"
                 android:id="@+id/likebutton_posts"
-                android:layout_marginLeft="10dp"/>
+           />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -193,6 +203,7 @@
 
 
     </LinearLayout>
+
 
 
 

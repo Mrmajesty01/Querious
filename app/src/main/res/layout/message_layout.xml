@@ -66,7 +66,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:text="Audio File"
+            android:text="Audio"
             android:gravity="center"
             android:id="@+id/audio_receiver"
             android:background="@drawable/sender_right"
@@ -96,7 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:id="@+id/audio_sender"
-            android:text="Audio File"
+            android:text="Audio"
             android:gravity="center"
             android:background="@drawable/receiver_right"
             android:textColor="@color/black"

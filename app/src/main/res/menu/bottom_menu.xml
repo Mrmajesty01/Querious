@@ -19,7 +19,7 @@
 <!--        android:id="@+id/bookshelf"/>-->
 
     <item android:title="Requests"
-        android:icon="@drawable/ic_baseline_queue_24"
+        android:icon="@drawable/ic_baseline_search_24"
         app:showAsAction="always"
         android:id="@+id/queue_bottom"/>
 

@@ -59,8 +59,8 @@
 
                     <TextView
                         android:id="@+id/name_reply_tv"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="280dp"
+                        android:layout_height="15dp"
                         android:hint="name"
                         android:paddingStart="5dp"
                         android:textColor="@color/grey"
@@ -100,29 +100,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="2dp"
+        android:padding="3dp"
+        android:layout_marginStart="20dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent">
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center"
-            app:cardCornerRadius="15dp"
-            app:cardPreventCornerOverlap="false">
-
-            <ImageView
-                android:id="@+id/iv_reply_user"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/ic_person"
-                android:clickable="true"
-                android:scaleType="centerCrop" />
-
-        </androidx.cardview.widget.CardView>
-
-
 
 
 
@@ -130,9 +111,10 @@
             <EditText
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:hint="Add Comment"
-                android:paddingStart="10dp"
+                android:hint="Add a reply"
+                android:paddingStart="5dp"
                 android:layout_marginRight="3dp"
+                android:maxLength="300"
                 android:id="@+id/et_reply"
                 android:textColorHint="@color/red"
                 android:textColor="@color/black"/>

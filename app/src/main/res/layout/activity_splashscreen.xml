@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center"
-    android:background="#FFFFFF"
+    android:gravity="center"
+    android:background="@color/white"
     tools:context=".Splashscreen">
 
 
@@ -14,42 +14,10 @@
         android:id="@+id/imageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_marginStart="85dp"
-        app:srcCompat="@drawable/qrlogo" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_marginTop="70dp"
-        android:id="@+id/app_name"
-        android:text="Querious"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="30sp"
-        android:textStyle="italic"
-        />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/qrnot" />
 
 
-        <TextView
-            android:id="@+id/description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="500dp"
-            android:text="Questions you're curious about"
-            android:textAlignment="center"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textSize="25dp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
 
 
 </RelativeLayout>

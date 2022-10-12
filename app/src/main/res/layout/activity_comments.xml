@@ -8,6 +8,12 @@
     android:background="@color/white"
     tools:context=".CommentsActivity">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        tools:ignore="MissingConstraints">
+
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
@@ -38,15 +44,36 @@
                 android:src="@drawable/ic_parson" />
         </androidx.cardview.widget.CardView>
 
-        <TextView
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+
+    <TextView
             android:id="@+id/name_comments_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
             android:hint="Name"
             android:padding="4dp"
             android:textColor="@color/black"
             android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="caption"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
     </LinearLayout>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -68,7 +95,8 @@
         <EditText
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:hint="Add Comment"
+            android:hint="Add a comment"
+            android:maxLength="300"
             android:paddingStart="10dp"
             android:layout_marginRight="3dp"
             android:textColorHint="@color/red"

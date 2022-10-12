@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardBackgroundColor="@color/white"
+    android:id="@+id/cardQuestion"
+    app:cardBackgroundColor="@color/whitee"
     app:cardCornerRadius="10dp"
     android:layout_margin="5dp">
 
@@ -53,8 +54,8 @@
                 android:layout_gravity="right"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="230dp"
+                android:layout_height="15dp"
                 android:textSize="10sp"
                 android:paddingStart="5dp"
                 android:textColor="@color/textcolorgrey"
@@ -66,6 +67,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:textColor="@color/black"
+                android:autoLink="web"
+                android:textIsSelectable="true"
                 android:id="@+id/del_que_item_tv"
                 android:paddingStart="5dp"
                 android:hint="questions" />
@@ -74,18 +77,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginRight="20dp"
                 android:gravity="center_vertical|right">
 
+
+                <ImageButton
+                    android:id="@+id/delete_item_que_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@color/whitee"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baselinered_delete_24"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
                 <TextView
+                    android:id="@+id/replies_no"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:id="@+id/delete_item_que_tv"
-                    android:textColor="@color/red"
-                    android:textSize="20sp"
-                    android:text="Delete "
-                    android:padding="5dp"/>
+                    android:paddingStart="5dp"
+                    android:text="0 Replies"
+                    android:layout_gravity="center_vertical|left|bottom"
+                    android:textColor="@color/textcolorgrey"
+                    android:textSize="15sp" />
 
 
             </LinearLayout>

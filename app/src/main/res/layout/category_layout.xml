@@ -21,11 +21,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Oldest"
+        android:text="All"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:padding="7dp"
         android:id="@+id/tvOld"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvGeneral"
         android:fontFamily="sans-serif-light"/>
 
     <TextView
@@ -101,6 +111,27 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Politics"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvPolitics"
+        android:fontFamily="sans-serif-light"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvBusiness"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Fashion"
         android:textColor="@color/black"
         android:textSize="15sp"
@@ -128,4 +159,14 @@
         android:id="@+id/tvLifestyle"
         android:fontFamily="sans-serif-light"/>
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travel"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvTravel"
+        android:fontFamily="sans-serif-light"/>
 </LinearLayout>
